@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ec8;
+}
+
+menu.main {
+  list-style-type: none;
+  margin: 20px 0px 0 100px;
+  background-color:  #55d;
+  box-shadow: inset 0 0 30px 0px white;
+}
+
+menu.main:after {
+  content:" ";
+  clear: left;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+menu.main li {
+  position: relative;
+  float: left;
+  border-left: 1px dashed white;
+}
+
+menu.main li:first-child {
+  border-left: none;
+}
+
+menu.main li:hover {
+  background-color: #22a;
+  box-shadow: inset 0 0 90px 0px white;
+}
+
+menu.main li:hover a{
+  padding: 10px 35px;
+  transition: all 700ms;
+}
+
+menu.main li a {
+  padding: 10px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-transform: capitalize;
+}
+
+menu.main li menu {
+  position: absolute;
+  list-style-type: none;
+  min-width: 100%;
+  background-color: #66d;
+  opacity: 0;
+  min-width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
+menu.main li li{
+  position: absolute;
+  
+}
+
+menu.main li:hover menu{
+  opacity: 1;
+  top: 100%;
+  transition: all 1s
+}
+menu.main li:hover menu li {
+  position: static;
+  float: none;
+  border-left: none;
+  border-top: 1px dashed white;
+  white-space: nowrap;
+}
+
+div.chat a {
+  padding: 5px 80px 5px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ddd;
+  text-shadow: 1px 1px 1px black;
+  text-transform: capitalize;
+  position: fixed;
+  background-color: #ea3;
+  bottom: 1px;
+  right: 1px;
+  box-shadow: 0 0 2px #000;
+}
+
+div.chat a div {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  right: 50px;
+  bottom: 9px;
+}
+
+div div.eee {
+  width: 300px;
+  height: 400px;
+  position: fixed;
+  right: -16%;
+  bottom: -55%;
+  opacity: 0;
+  border: 60px solid transparent;
+  border-width: 0 5px 50px 0;
+  transition: all 1s;
+}
+
+div div.eee3 {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 0 1px red,
+              0 0 0 2px blue;
+}
+
+div div.eee2 {
+  width: 0px;
+  height: 0px;
+  margin: 130% 0 0 70%;
+  right:;
+  bottom;
+  border: 30px solid white;
+  border-color: white white transparent transparent;
+}
+
+div.chat:hover div.eee {
+  opacity: 1;
+  transition: all 1s;
+  right: 6%;
+  bottom: 4.55%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

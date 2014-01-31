@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  <menu class="main">
+    <li><a href="#">home</a></li>
+    <li><a href="#">contact us</a>
+      <menu>
+        <li><a href="#">fone</a></li>
+        <li><a href="#">email</a></li>
+        <li><a href="#">chat</a></li>
+      </menu>
+    </li>
+    <li><a href="#">forum</a></li>
+    <li><a href="#">about us</a>
+    <menu>
+      <li><a href="#">man</a></li>
+      <li><a href="#">amin</a></li>
+      <li><a href="#">ali</a></li>
+      <li><a href="#">hassan</a></li>
+    </menu>
+    </li>
+  </menu>
+  <div class="chat">
+    <a href="#">chat on
+      <div></div>
+    </a>
+      <div class="eee">
+        <div class="eee2"></div>
+        <div class="eee3">
+          <p>ops</p>
+          <p>im ofline you can meet me at yahoo messenger <a href="https://yahoo.com">golestani76@yahoo.com</a></p>
+          
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+  
